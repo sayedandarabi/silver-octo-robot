@@ -1,0 +1,35 @@
+{
+  "product": "Fin MaX",
+  "slug": "finmax",
+  "version": "1.0.0",
+  "nativeIdentity": "space.manus.finmax.t173474036053484",
+  "trpcNamespace": "finmax",
+  "directories": {
+    "app": "app",
+    "components": "components/finmax",
+    "engines": "lib",
+    "contracts": "shared/finmax-contracts.ts",
+    "server": "server",
+    "schema": "drizzle",
+    "tests": "tests",
+    "documentation": "docs"
+  },
+  "deliverables": [
+    "README.md",
+    "plan.md",
+    "docs/FinMaX-architecture.md",
+    "docs/requirements-status-fa.md",
+    "docs/FinMaX-rename-report.md",
+    "docs/FinMaX-implementation-guide.md",
+    "docs/FinMaX-test-report.md",
+    "docs/FinMaX-project-manifest.json"
+  ],
+  "validationCommands": [
+    "pnpm check",
+    "pnpm lint",
+    "pnpm test",
+    "pnpm build",
+    "npx expo config --type public",
+    "npx expo export --platform web"
+  ]
+}

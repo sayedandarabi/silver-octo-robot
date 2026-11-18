@@ -1,0 +1,779 @@
+{
+  "product": "Fin MaX",
+  "package": "Google AI Studio transfer package",
+  "root": "FinMaX-google-ai-studio-transfer",
+  "sourceCommit": "d749a9e0283b056e7c9a2d859834ad1ee518fde7",
+  "generatedUtc": "2026-11-18T21:08:00Z",
+  "excludes": [
+    "node_modules",
+    ".git",
+    ".expo",
+    "dist",
+    "web-build",
+    ".env and other secret files"
+  ],
+  "fileCount": 152,
+  "totalBytes": 1748656,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 1343,
+      "sha256": "b1c30ad746a56a7a0d4ef9c348f5e233695a7198e1a7fdcaff52e065f26f6f2b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 787,
+      "sha256": "8fb476978fe9fd67615937d9f7564b0827125a822d8519e4917a6fba5e3c783b"
+    },
+    {
+      "path": ".manus-starter-init.json",
+      "bytes": 139,
+      "sha256": "90c4e92e53fe619241d4642a2171a420525cb24dc99e6f2bdc1fc9583b48db5b"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 20,
+      "sha256": "a28c9d86a8981049d203ad164cff1e753ed61dc0460ee8765316cbb3d0007d00"
+    },
+    {
+      "path": ".watchmanconfig",
+      "bytes": 46,
+      "sha256": "f0bf088efd1aeca30c650c5a42d334396ea01f04c22c3125b07c836d2db4d1d7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2779,
+      "sha256": "26cc0e26d3535399f5bb646f3aa78a84fdd22a45b997543985ce2c74333c5d1d"
+    },
+    {
+      "path": "TODO.md",
+      "bytes": 1371,
+      "sha256": "3ae5bc82b968528a57e85ba749c625478689804390ab1a17efe66e3103058f94"
+    },
+    {
+      "path": "app/(tabs)/_layout.tsx",
+      "bytes": 230,
+      "sha256": "d63ee46170be0661f6a3e79f7da27b51f862a8989c1be81bc122437618660192"
+    },
+    {
+      "path": "app/(tabs)/index.tsx",
+      "bytes": 29534,
+      "sha256": "add8754438b2424eff3062b7168b17b68c46eff599f88c03781ed477a07b688c"
+    },
+    {
+      "path": "app/_layout.tsx",
+      "bytes": 4626,
+      "sha256": "34d96232a1ff41da03df7d5d0d351fe68d4af2881a501581defe377932837f46"
+    },
+    {
+      "path": "app/accounting.tsx",
+      "bytes": 10575,
+      "sha256": "2040471e16aef7d71be67d88ba5b7244f1f72025e573d0257348f42f4221750a"
+    },
+    {
+      "path": "app/customers.tsx",
+      "bytes": 10869,
+      "sha256": "0ce26ed1973e85d18565f0d847d8d12480ac0fdb2a573e8d7afe9a87f93f03da"
+    },
+    {
+      "path": "app/dev/theme-lab.tsx",
+      "bytes": 8890,
+      "sha256": "5af12b486e259b604d411630cfa5a63b62f9d2acfaa3b1e3349adce161c685dd"
+    },
+    {
+      "path": "app/finance.tsx",
+      "bytes": 13640,
+      "sha256": "dd437bf18a5def89a63e4eace0130398300b295266d401a24d241f9fe753808c"
+    },
+    {
+      "path": "app/index.tsx",
+      "bytes": 1367,
+      "sha256": "7e83ceda78fd5d2153f6b5092c693dce683ad7de645d1f9439b3bdf281187537"
+    },
+    {
+      "path": "app/inventory.tsx",
+      "bytes": 10839,
+      "sha256": "440c3175a236fdea9894302b70eb3e75266c21e8176fc12778180b917e4c656f"
+    },
+    {
+      "path": "app/login.tsx",
+      "bytes": 4523,
+      "sha256": "66830ec46a689ccd0723a927c6c3fb979d589704bbb2145823c9ea68318db2bb"
+    },
+    {
+      "path": "app/oauth/callback.tsx",
+      "bytes": 9401,
+      "sha256": "2eb2263f76f8772419390942d93340bc28585fae8291ca5e37f81083a5ea230e"
+    },
+    {
+      "path": "app/onboarding.tsx",
+      "bytes": 6369,
+      "sha256": "095a8e54c4d44c70b017331c9747ee97c0218550f60c3839d4fc54dcb20a860c"
+    },
+    {
+      "path": "app/phase3.tsx",
+      "bytes": 15019,
+      "sha256": "1d1f565e2faf657af42a8bb4e63034920ed4346075ba5a440e96a41d32481cd4"
+    },
+    {
+      "path": "app/pos.tsx",
+      "bytes": 15140,
+      "sha256": "00eb3acb09ad519531452210ca8dbe2dd30cd04bb7b9e41f75307e7bacdf43aa"
+    },
+    {
+      "path": "app/setup.tsx",
+      "bytes": 12659,
+      "sha256": "4a90f0a43aee132d1b7ad5f1dee68608c6eaf6255a0c1b15cfe625b96af8b50b"
+    },
+    {
+      "path": "app.config.ts",
+      "bytes": 4760,
+      "sha256": "589ae27c57d83598f784151262ecfaa893885780500adb65b5e448fdecf5b30e"
+    },
+    {
+      "path": "assets/images/afghan-hill-backdrop.png",
+      "bytes": 396204,
+      "sha256": "19c739e68cf3d523ca91eba5d7b453966433cf3a8d5cb512b96dd4293eba4f59"
+    },
+    {
+      "path": "assets/images/android-icon-background.png",
+      "bytes": 6492,
+      "sha256": "072ad855decabcb9bea21a10a095c41f1157bf68d339767edde709413161f633"
+    },
+    {
+      "path": "assets/images/android-icon-foreground.png",
+      "bytes": 10796,
+      "sha256": "1018cab9ff7edbabccddf65732d79d824bec1ae31684bb2bffe3960443677a4a"
+    },
+    {
+      "path": "assets/images/android-icon-monochrome.png",
+      "bytes": 7860,
+      "sha256": "e32f70e93d4d3166b235e7f5a3c4d64b8228f2f48b8a534197c23e8ce3f47585"
+    },
+    {
+      "path": "assets/images/favicon.png",
+      "bytes": 859,
+      "sha256": "e0eafa50054ba672fbc88ccd6de6d86740cac16dd9d59e60b1a1d7614a343cf5"
+    },
+    {
+      "path": "assets/images/icon.png",
+      "bytes": 10796,
+      "sha256": "1018cab9ff7edbabccddf65732d79d824bec1ae31684bb2bffe3960443677a4a"
+    },
+    {
+      "path": "assets/images/partial-react-logo.png",
+      "bytes": 5075,
+      "sha256": "015a72aeb24c1166243ebc185355c9488cc892fbf3aa82f9ae66819a10f3451c"
+    },
+    {
+      "path": "assets/images/react-logo.png",
+      "bytes": 6341,
+      "sha256": "224b7636b15e672801579b5b418077cbc2ca42f0146389062364356b0ecb5c5c"
+    },
+    {
+      "path": "assets/images/react-logo@2x.png",
+      "bytes": 14225,
+      "sha256": "fa600be9ad2f869c7a8dbaffc78bb15af741123e1319c948f0be51753a153cde"
+    },
+    {
+      "path": "assets/images/react-logo@3x.png",
+      "bytes": 21252,
+      "sha256": "cd84e02a5d542a3e71b7fa10a685c1b9fb51db4aff92aca6c0da6461ce17be16"
+    },
+    {
+      "path": "assets/images/splash-icon.png",
+      "bytes": 7424,
+      "sha256": "16be6da16886c403f8fd523171b79294ff191cddf04e2ce0029455e41e0939e8"
+    },
+    {
+      "path": "babel.config.js",
+      "bytes": 248,
+      "sha256": "eb65280c4b785ba798ff5395b49f82e0a7408b15ab55eaf4cc24e46d3d5ff8e5"
+    },
+    {
+      "path": "components/external-link.tsx",
+      "bytes": 794,
+      "sha256": "2a4b7d4daaaa544ebedc67429235a6d7ee2f25c6402b83974a48bb940bf1d664"
+    },
+    {
+      "path": "components/finmax/finmax-dashboard.tsx",
+      "bytes": 16637,
+      "sha256": "799bdc4ff054d79d30883e8fd8365eaa31a95b00b8d52d5290cb7bd3717ba38f"
+    },
+    {
+      "path": "components/finmax/ui.tsx",
+      "bytes": 9509,
+      "sha256": "502d1fe74a005b8a2ecfe88fd73e8f01d01d9332272a1b216bf132d8d548cc01"
+    },
+    {
+      "path": "components/haptic-tab.tsx",
+      "bytes": 561,
+      "sha256": "e97903c7791d772e746e1eefa6f39e95b39af8aa3a12eebee26414af9cda9e2e"
+    },
+    {
+      "path": "components/hello-wave.tsx",
+      "bytes": 410,
+      "sha256": "e03908c1b822ef27149dcd65c0552d0f30532b072ef47401a8bd24f8e4fd9bee"
+    },
+    {
+      "path": "components/parallax-scroll-view.tsx",
+      "bytes": 2102,
+      "sha256": "3741cb292ea5506069a693eaf83a3d8e4eb9e38f05592a1ac102952398be662b"
+    },
+    {
+      "path": "components/screen-container.tsx",
+      "bytes": 1661,
+      "sha256": "e98f22672cf7e0b243a87fbff64cfd7db48a70415a516ae80f99b41142b747a5"
+    },
+    {
+      "path": "components/themed-view.tsx",
+      "bytes": 461,
+      "sha256": "cec7921ecee6ee6590ed8cee4c1a3316a9d72d5a9ee695203b15beeec57220b9"
+    },
+    {
+      "path": "components/ui/collapsible.tsx",
+      "bytes": 1004,
+      "sha256": "c4dd5a6eba6677bdee7b75a3d690f80a2312c6f78cb44cc4f563453d51a859d5"
+    },
+    {
+      "path": "components/ui/icon-symbol.ios.tsx",
+      "bytes": 598,
+      "sha256": "410e970a44835a834ae34981a23db258e63ce5e712ad9aaf73d3bf892696a6a1"
+    },
+    {
+      "path": "components/ui/icon-symbol.tsx",
+      "bytes": 1455,
+      "sha256": "fb5dcf6b34306195a4c87b3e2f0e5d760abf9caeb64eec4538d2c0fc1b6dd33f"
+    },
+    {
+      "path": "constants/const.ts",
+      "bytes": 338,
+      "sha256": "18898c9ef0c72500de0be09cee99f3ba84e60b8dfc34082f7b5fe823dcbbfd19"
+    },
+    {
+      "path": "constants/oauth.ts",
+      "bytes": 4430,
+      "sha256": "ed7fb2a301d4959cc116eccd21146576d02e24b6379b26eb3f8cad85df6b2cbb"
+    },
+    {
+      "path": "constants/theme.ts",
+      "bytes": 275,
+      "sha256": "01fbaa9f3e507ec1e63166f009bd61c2ac793060bd143c6d6370d818842e5278"
+    },
+    {
+      "path": "docs/FinMaX-architecture.md",
+      "bytes": 8772,
+      "sha256": "b93f6f17d1a1486bba853e92d382a9cbc3dcb705bad1202b058172a8e23ae843"
+    },
+    {
+      "path": "docs/FinMaX-dependency-inventory.json",
+      "bytes": 13337,
+      "sha256": "55c1e6ad984f2aad3f06204321c03c4d05031bfc01005918fd11d95397538538"
+    },
+    {
+      "path": "docs/FinMaX-implementation-guide.md",
+      "bytes": 3181,
+      "sha256": "16bbd68052ba720b2a38fa99b0f5c17fdb89553f96489fcc67731246dc03a041"
+    },
+    {
+      "path": "docs/FinMaX-project-manifest.json",
+      "bytes": 864,
+      "sha256": "47e6c33ced1ab8d90f0661445c4d6d4210767c6c6d3711511d1231f0102832d7"
+    },
+    {
+      "path": "docs/FinMaX-rename-report.md",
+      "bytes": 3645,
+      "sha256": "fa815bfb994725ad732dbc09bc682836b1bd1155927c24fc06604464b90dbc16"
+    },
+    {
+      "path": "docs/FinMaX-test-report.md",
+      "bytes": 3020,
+      "sha256": "0baed12da3d085b41383882110163fff3cc18423ccd75c03754e83b78d8fb220"
+    },
+    {
+      "path": "docs/Google-AI-Studio-transfer.md",
+      "bytes": 5027,
+      "sha256": "bc765ffd2d22906ff41e2d5bcfa09612c27bd342fd9dca7ad0008105fa4cff40"
+    },
+    {
+      "path": "docs/requirements-status-fa.md",
+      "bytes": 2059,
+      "sha256": "7a2b105c2d259df240738f80b1d8ce9ed69977c0f3aa09cf1c28b7b0aaa0a13b"
+    },
+    {
+      "path": "drizzle/0000_elite_eternals.sql",
+      "bytes": 483,
+      "sha256": "814a08e40d7fc2bcfd458759d18319198ca8ae394f2fa15617a78678e9c9c93b"
+    },
+    {
+      "path": "drizzle/0001_striped_white_tiger.sql",
+      "bytes": 3828,
+      "sha256": "873ec6416a31de1ed887b1d2e78c5c73f5639eec6fd40fb4a8a83559f6028ff0"
+    },
+    {
+      "path": "drizzle/0002_cultured_ender_wiggin.sql",
+      "bytes": 692,
+      "sha256": "3a80e471d22476f94b95b9b35935a9bc7a3013e97be0973fc82254979baadd8e"
+    },
+    {
+      "path": "drizzle/0003_optimal_donald_blake.sql",
+      "bytes": 6477,
+      "sha256": "fc1b345744fbb596dddac81476e5270cdbfeb4472d9bc6d982fc8168cc0a6274"
+    },
+    {
+      "path": "drizzle/0004_thin_callisto.sql",
+      "bytes": 4442,
+      "sha256": "886e11fabe035477ab408b74e886edc1b9fec10e0b20c9a329319996d32454d4"
+    },
+    {
+      "path": "drizzle/0005_narrow_bullseye.sql",
+      "bytes": 3721,
+      "sha256": "e1b2df6270e4f982fec485c317e2b10dcc9ea549d6523584ec78edda00ba29d6"
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "bytes": 2546,
+      "sha256": "b7a2022015ccca4b794abe639c7c94a54749472bc4967a0d89fc104cfa589033"
+    },
+    {
+      "path": "drizzle/meta/0001_snapshot.json",
+      "bytes": 20020,
+      "sha256": "b5980cc34ccd19018035e580a838a72f0f82479aa56a9d5e778cd40e46dd209f"
+    },
+    {
+      "path": "drizzle/meta/0002_snapshot.json",
+      "bytes": 20034,
+      "sha256": "509f8acb38ea3c4a6580fd713a1e6a9d537cb109babac4ac502dff4fb0f62a4e"
+    },
+    {
+      "path": "drizzle/meta/0003_snapshot.json",
+      "bytes": 48810,
+      "sha256": "4b493846586875f50538a5975de7bd0df931d37ac94fa1da6a0d5b5bcc679ec4"
+    },
+    {
+      "path": "drizzle/meta/0004_snapshot.json",
+      "bytes": 69774,
+      "sha256": "5a0251d00fc8058e73804f87fae6dcad1048a6bf88e3d2056664982db34083b8"
+    },
+    {
+      "path": "drizzle/meta/0005_snapshot.json",
+      "bytes": 86794,
+      "sha256": "1ef85071f7e7ac4c3e58ca049170df657561311ce425e42da118916aa4e556bf"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 931,
+      "sha256": "4f7110162261097a049e6dc934c209a83efc5b35187a00074a0bff7fd25845eb"
+    },
+    {
+      "path": "drizzle/migrations/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drizzle/relations.ts",
+      "bytes": 27,
+      "sha256": "85acb8ece8fbb5031fc56fa8c70338d9b8b06ef3b032391fff8532c6373c7186"
+    },
+    {
+      "path": "drizzle/schema.ts",
+      "bytes": 26767,
+      "sha256": "1c457e683333a19a04e8e2dc9daa96b9afb5f47269b7e4226ab483109e67deb9"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 353,
+      "sha256": "9610673b3fe7b6b950a8e7e54cb1e91f9dd25f87d7ae6a41d2f6ada957065d01"
+    },
+    {
+      "path": "eslint.config.js",
+      "bytes": 228,
+      "sha256": "0a16c7a62375d4756b81fbe44f37abf9e9b6969fac84e77c7021972a5a783c63"
+    },
+    {
+      "path": "expo-env.d.ts",
+      "bytes": 110,
+      "sha256": "6fc02634da46d3edc5a88eec9173ba6bf709726be3cba83c73ebd8e859d5c147"
+    },
+    {
+      "path": "global.css",
+      "bytes": 59,
+      "sha256": "cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec"
+    },
+    {
+      "path": "hooks/use-auth.ts",
+      "bytes": 3989,
+      "sha256": "4fb42fb131a405e6788e6a8c853a6dab9a8ee75072dcc9109003641476071a35"
+    },
+    {
+      "path": "hooks/use-color-scheme.ts",
+      "bytes": 134,
+      "sha256": "33d9d7815f51880b483e72d23e637015ead39c37c78efa098d70d8c0ee866419"
+    },
+    {
+      "path": "hooks/use-color-scheme.web.ts",
+      "bytes": 480,
+      "sha256": "7daabb63b86ba392e4f9a88a068bc5226d41a8dd64eef251eba2d56abdf711b7"
+    },
+    {
+      "path": "hooks/use-colors.ts",
+      "bytes": 504,
+      "sha256": "3a97917e877bb64ab6ba9247993c271aaea3b30fa07f12026f927a5fcb068c9f"
+    },
+    {
+      "path": "lib/_core/api.ts",
+      "bytes": 4901,
+      "sha256": "0d282582f462921fd6cd50738ed40235cf11fdc95b3f6a5277c6c82f033ab8de"
+    },
+    {
+      "path": "lib/_core/auth.ts",
+      "bytes": 3754,
+      "sha256": "403fa175875ce9a3f477c98247979b830b10d6d4c371b3b74050c817f1154f5c"
+    },
+    {
+      "path": "lib/_core/manus-runtime.ts",
+      "bytes": 3546,
+      "sha256": "0cbdbc6c4aff179d4e9bd9880b12600e04fd8966e8acd01911c6c99f6540306a"
+    },
+    {
+      "path": "lib/_core/nativewind-pressable.ts",
+      "bytes": 223,
+      "sha256": "a75dac0e8dd47bf99e7af6659e363be969294cb30f6585ff5fc00ce27dd55112"
+    },
+    {
+      "path": "lib/_core/theme.ts",
+      "bytes": 2432,
+      "sha256": "7648ba78ea5fbb9855fc831220ccaa8d93ef6d369673054bfc906092d522e828"
+    },
+    {
+      "path": "lib/finmax-data.ts",
+      "bytes": 4273,
+      "sha256": "963f15fd7234b515277e7d3d7e3e74d77a26228560e91929954808ec9fd6cb9f"
+    },
+    {
+      "path": "lib/finmax-engine.ts",
+      "bytes": 6980,
+      "sha256": "1c4928e1d8076bc065a90324a087bfc2fc501179f4eb88c3fb125d565234952a"
+    },
+    {
+      "path": "lib/finmax-modules-engine.ts",
+      "bytes": 6884,
+      "sha256": "ae3010dd5761416778386f9889891767ce853a58925383ae6fd94f207d8abc59"
+    },
+    {
+      "path": "lib/finmax-modules.ts",
+      "bytes": 4694,
+      "sha256": "99ecc6ac2002a83eeb1492fe2cc38b150b6b6d6cd6363e1625aeb1aedbf5423e"
+    },
+    {
+      "path": "lib/finmax-phase3-engine.ts",
+      "bytes": 4307,
+      "sha256": "84ce95621d68a23dd6a585f08b432a2387dbe1abea48e81a05f28c364b6e7ce0"
+    },
+    {
+      "path": "lib/finmax-storage.ts",
+      "bytes": 1626,
+      "sha256": "b0fa38e71dcbe07b58fa0ac1e954b27b8a4b827ad6982d741f30d9248b627bec"
+    },
+    {
+      "path": "lib/receipt.ts",
+      "bytes": 2398,
+      "sha256": "a91922c7c1be20d9e73cf30d7c66796cc5930f001903c49cd76883baf784edf7"
+    },
+    {
+      "path": "lib/theme-provider.tsx",
+      "bytes": 2602,
+      "sha256": "4a23768f96200676479fa29954c2f853d60355807ade2aa5af222dcfeb007c0a"
+    },
+    {
+      "path": "lib/thermal-printer.ts",
+      "bytes": 4367,
+      "sha256": "239c4c0b42fad0f8632014637dffaab1893c0189bab150dcf378a54a2916548a"
+    },
+    {
+      "path": "lib/trpc.ts",
+      "bytes": 1339,
+      "sha256": "1c364143dbf22c2d56d5768f10ba133c752ebbd2b613bc08ca6e79c3a6425608"
+    },
+    {
+      "path": "lib/utils.ts",
+      "bytes": 390,
+      "sha256": "dabdb4094e3b6f8b17fdc43435b1d5317b232079076922d0a258e78e0abe4ccd"
+    },
+    {
+      "path": "metro.config.js",
+      "bytes": 232,
+      "sha256": "1ee049f812f0113cf75930a7ecef4365960d63c6701b8799cbddb5acb3c99303"
+    },
+    {
+      "path": "nativewind-env.d.ts",
+      "bytes": 161,
+      "sha256": "cc9bcf6c27b600bd682a6e47dece7b6f53ded4d8f0f707b44831f9f1b1530d6e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 3315,
+      "sha256": "2b0e342ff09464352fd1cb58ee5ab4209dba4fff7864b0d4d4ff70ea8c0c3087"
+    },
+    {
+      "path": "plan.md",
+      "bytes": 10321,
+      "sha256": "f0062cda4184117778542486ceea502fa037a2541973f393027a678e8e23a4d7"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 467439,
+      "sha256": "881a33b756c302c15642b871ef6c9b1efe05cb82c0f20c3ef424ae516ed274bb"
+    },
+    {
+      "path": "public/manus-routes.json",
+      "bytes": 506,
+      "sha256": "962343ceea4bb95aaf9bbb819a734bced9c5c6ef2002f53bf39c2e4b7b15a8bf"
+    },
+    {
+      "path": "scripts/generate_qr.mjs",
+      "bytes": 299,
+      "sha256": "ec99d3f6d71a322306a7769114e88c32dc3b61ccb582853e9b013907363448a6"
+    },
+    {
+      "path": "scripts/load-env.js",
+      "bytes": 1776,
+      "sha256": "c5b246d30053b373bb3102654ab33257c5f54a9845431dae02197f70b780c2d0"
+    },
+    {
+      "path": "server/_core/context.ts",
+      "bytes": 654,
+      "sha256": "23f93675d55c330e159dfafede905a39286eafe0d17a6d5014ab66f1aee0dd5b"
+    },
+    {
+      "path": "server/_core/cookies.ts",
+      "bytes": 2431,
+      "sha256": "16e1390715ee88dc5d7377bdd532a3ba34ff2eba8e9e093d76fdb35d5f768c66"
+    },
+    {
+      "path": "server/_core/cors.ts",
+      "bytes": 4040,
+      "sha256": "ac435b69e4ed828e3831e1c0bbc334705be530a3042781b59eca6ee554f160f9"
+    },
+    {
+      "path": "server/_core/dataApi.ts",
+      "bytes": 1901,
+      "sha256": "789a35c8bd1651560d08bfaae03e41bb55d99d00cca30c460bb1c3ea4d002ca9"
+    },
+    {
+      "path": "server/_core/env.ts",
+      "bytes": 527,
+      "sha256": "f80a13ad81236a7516550676f69d0384fd951aa6275c876ebe1a8d4aa2b7c35c"
+    },
+    {
+      "path": "server/_core/heartbeat.ts",
+      "bytes": 6790,
+      "sha256": "ceacceb39d5b9b9b0d5d2b24da9d84ac398c9eb7d64932dcb8a0b4ea603386e3"
+    },
+    {
+      "path": "server/_core/imageGeneration.ts",
+      "bytes": 4392,
+      "sha256": "52d7016bcd730084e5cf8660141a0071c6160bdf3f5fbc6f3a5367d893c75908"
+    },
+    {
+      "path": "server/_core/index.ts",
+      "bytes": 2794,
+      "sha256": "ec247ec26fc9f3bbdb379e3f7dc358c1f16b5e4f4de9655b98ca753461d21efa"
+    },
+    {
+      "path": "server/_core/llm.ts",
+      "bytes": 10577,
+      "sha256": "dc7835000c462078c21b10d8261a5a52612c10a1418b5c2213b00e26a16d8a80"
+    },
+    {
+      "path": "server/_core/notification.ts",
+      "bytes": 2989,
+      "sha256": "2a8ca16560631528771f2b07ea2b7d1db8ba84622338587882a44f66bb4c98db"
+    },
+    {
+      "path": "server/_core/oauth.ts",
+      "bytes": 6084,
+      "sha256": "873372ae70ff93f6b0371efd364a52d83be1fbf475366ab73510beb24e79720d"
+    },
+    {
+      "path": "server/_core/sdk.ts",
+      "bytes": 9372,
+      "sha256": "80d2c943015eff678809e996b3a27bf8f2a663daeb1d87b888cb44755639975a"
+    },
+    {
+      "path": "server/_core/storageProxy.ts",
+      "bytes": 1362,
+      "sha256": "6045627860a768d9ce405018044c9d3fa6ab7d7e677afb40647222c670c217c3"
+    },
+    {
+      "path": "server/_core/systemRouter.ts",
+      "bytes": 711,
+      "sha256": "bbd50d95f79659159ddbc85f8960ad1ebb81b83047523fcedd5dde5b50e8357c"
+    },
+    {
+      "path": "server/_core/trpc.ts",
+      "bytes": 1045,
+      "sha256": "0fd486ef9810a38b1d9f90df512846fc874553c8a17decf4a26fed006cd4c92b"
+    },
+    {
+      "path": "server/_core/types/cookie.d.ts",
+      "bytes": 125,
+      "sha256": "6688b6c17ecf926f651885037ea17b032c100b7e27f5e33180867f9e7879dbdd"
+    },
+    {
+      "path": "server/_core/types/manusTypes.ts",
+      "bytes": 1406,
+      "sha256": "d073995b792a4376177bf7270cbcf3a670d4e72efb8eb6a83ecb55043cc729c3"
+    },
+    {
+      "path": "server/_core/voiceTranscription.ts",
+      "bytes": 8039,
+      "sha256": "b54d7894f85dfd7d8a3eef57a9a0cfa76d4c9c49bc25d7ae384c4a6c76485d25"
+    },
+    {
+      "path": "server/db.ts",
+      "bytes": 2487,
+      "sha256": "8ece7055b12e6e30e80a8a616ca2c3656a04aaeea798f0c3668dd723a546333e"
+    },
+    {
+      "path": "server/finmax-daily-summary.ts",
+      "bytes": 1311,
+      "sha256": "c182e0ae49d424a9621c8fb0735eab20ac6c60bfa6cf617cf4060b4d19b81253"
+    },
+    {
+      "path": "server/finmax-db.ts",
+      "bytes": 15009,
+      "sha256": "2de82fcbc19c485e478a2ffbe34a9f6f27e8bbafb75e1db0edf4cd239e6e191e"
+    },
+    {
+      "path": "server/finmax-phase3-db.ts",
+      "bytes": 5102,
+      "sha256": "0dcf9cee27f31847251ad2135794ac86760efeb120feaa6fd305e95255ea8183"
+    },
+    {
+      "path": "server/finmax-providers.ts",
+      "bytes": 1739,
+      "sha256": "454e0937954055512c661147b6b7be1a1e421acd0faa3ad8720c28ef64c0ea30"
+    },
+    {
+      "path": "server/finmaxRouter.ts",
+      "bytes": 36520,
+      "sha256": "3fda6624a85814df5cf77befd127cbf56db91058cc13d281c96e1cd4d2c9065c"
+    },
+    {
+      "path": "server/routers.ts",
+      "bytes": 1074,
+      "sha256": "219e4e970703d87d72d6853db4c7d51d44fe746daa0855a02d0791a76a83f49c"
+    },
+    {
+      "path": "server/storage.ts",
+      "bytes": 3052,
+      "sha256": "55eab39960d991bfbd50e86fb586fd6842fff88bcc7ab6d3538982a3fd9dd860"
+    },
+    {
+      "path": "shared/_core/errors.ts",
+      "bytes": 602,
+      "sha256": "f49c86179b38c7ea610bdb51ecf90c14a34953cab56b75ce57f1ada5479a55c1"
+    },
+    {
+      "path": "shared/const.ts",
+      "bytes": 338,
+      "sha256": "18898c9ef0c72500de0be09cee99f3ba84e60b8dfc34082f7b5fe823dcbbfd19"
+    },
+    {
+      "path": "shared/finmax-contracts.ts",
+      "bytes": 11389,
+      "sha256": "f058e4fa31fc30fe0e402069218fe53dfede65a0cc6c88ddf0a3ad67d3f405de"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 158,
+      "sha256": "959aeb30b032e203677e278922e97988b7cbcb56485694458298859af5589974"
+    },
+    {
+      "path": "tailwind.config.js",
+      "bytes": 882,
+      "sha256": "257c0949766a0699e536eb7d18379a3c0bda37766e878271b06222f222544489"
+    },
+    {
+      "path": "tests/auth.logout.test.ts",
+      "bytes": 1750,
+      "sha256": "80048b7fca23ebbecf022569b9ec848c40e0311f612d1bbb674bddfff2b86e82"
+    },
+    {
+      "path": "tests/cors.test.ts",
+      "bytes": 9876,
+      "sha256": "a5c67211b7f44ce49489bca83426b3cfcfa873af179e07fac20669c3c3fc7d67"
+    },
+    {
+      "path": "tests/finmax-engine.test.ts",
+      "bytes": 2314,
+      "sha256": "28eda041a6ef67daef9f63a626391d306fdb3a813b76516b651fb36375d115f9"
+    },
+    {
+      "path": "tests/finmax-modules-engine.test.ts",
+      "bytes": 1478,
+      "sha256": "66269d98fe2db9d791706359823702254d71c052a1269679f7bc94076ff3c533"
+    },
+    {
+      "path": "tests/finmax-phase1.test.ts",
+      "bytes": 1449,
+      "sha256": "845bcea60caea13bb0690a26314ae51895a22e3315f5fe7781fbbf0aaea0fac9"
+    },
+    {
+      "path": "tests/finmax-phase2-engine.test.ts",
+      "bytes": 1788,
+      "sha256": "b2744ce4bddc71377b5c5e2c2f8e8816f7b11d809de54cf65719c7ba6d6b2c82"
+    },
+    {
+      "path": "tests/finmax-phase3.test.ts",
+      "bytes": 1702,
+      "sha256": "5ec94ea0739ac2d829494e295ae3d4fe6e2fbd75ec6a849705f7e1478949fa0a"
+    },
+    {
+      "path": "tests/finmax-phase9.test.ts",
+      "bytes": 1482,
+      "sha256": "603dac254ab8d3da0921ce216c0c047d14a3af25ad875c6903810f39077d9d59"
+    },
+    {
+      "path": "tests/finmax-router.test.ts",
+      "bytes": 1193,
+      "sha256": "96f4fb699b1d382a42fdd68bc82a1fa2bf295c44de04d7ea4a7573f74df99fc2"
+    },
+    {
+      "path": "theme.config.d.ts",
+      "bytes": 525,
+      "sha256": "dc7c4d2cc9c3cb1cad011aa3a6f5f9c9ab1a62e1abad35aaf3efea7f7105f24d"
+    },
+    {
+      "path": "theme.config.js",
+      "bytes": 532,
+      "sha256": "136d70bd04cfa08fd2b74c0f3dd9a42f614c66b9a5d1ac399573d56bb299bba5"
+    },
+    {
+      "path": "transfer/AI-STUDIO-IMPORT-PROMPT.md",
+      "bytes": 1618,
+      "sha256": "45b94ea0bed442db2a1acf4957196ea33b6cf8e238e8f13151fd4ba335cac51b"
+    },
+    {
+      "path": "transfer/sample-data/seed-fixtures.json",
+      "bytes": 3341,
+      "sha256": "2732fa990aa39ee24fe63452f0cbc0ee37a40080ae2e239abcb1d4997d0f74ae"
+    },
+    {
+      "path": "transfer/verification/README.md",
+      "bytes": 206,
+      "sha256": "11d9ccaa7dec5407f6ad24f92e5dd986359d74ce24881250d2c00368d9385544"
+    },
+    {
+      "path": "transfer/verification/verify-transfer.mjs",
+      "bytes": 1442,
+      "sha256": "adc572a32f99f787f5949794beb6941a6db44f4c07cf4cf1075d15be4e2738fe"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 452,
+      "sha256": "0be41ed94625c4824ee98ad589da4687fd4afc965a8aedb30111697b9296877a"
+    }
+  ]
+}

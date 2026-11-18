@@ -1,0 +1,377 @@
+{
+  "product": "Fin MaX",
+  "package": "finmax",
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.12.0",
+  "lockfile": "pnpm-lock.yaml",
+  "generatedAt": "2026-11-18T20:58:00.352Z",
+  "dependencies": {
+    "@expo/metro-runtime": {
+      "requested": "@expo/metro-runtime",
+      "installed": "57.0.16",
+      "resolved": "https://registry.npmjs.org/@expo/metro-runtime/-/metro-runtime-57.0.16.tgz"
+    },
+    "@expo/vector-icons": {
+      "requested": "@expo/vector-icons",
+      "installed": "15.0.3",
+      "resolved": "https://registry.npmjs.org/@expo/vector-icons/-/vector-icons-15.0.3.tgz"
+    },
+    "@react-native-async-storage/async-storage": {
+      "requested": "@react-native-async-storage/async-storage",
+      "installed": "2.2.0",
+      "resolved": "https://registry.npmjs.org/@react-native-async-storage/async-storage/-/async-storage-2.2.0.tgz"
+    },
+    "@tanstack/react-query": {
+      "requested": "@tanstack/react-query",
+      "installed": "5.90.12",
+      "resolved": "https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.90.12.tgz"
+    },
+    "@trpc/client": {
+      "requested": "@trpc/client",
+      "installed": "11.7.2",
+      "resolved": "https://registry.npmjs.org/@trpc/client/-/client-11.7.2.tgz"
+    },
+    "@trpc/react-query": {
+      "requested": "@trpc/react-query",
+      "installed": "11.7.2",
+      "resolved": "https://registry.npmjs.org/@trpc/react-query/-/react-query-11.7.2.tgz"
+    },
+    "@trpc/server": {
+      "requested": "@trpc/server",
+      "installed": "11.7.2",
+      "resolved": "https://registry.npmjs.org/@trpc/server/-/server-11.7.2.tgz"
+    },
+    "axios": {
+      "requested": "axios",
+      "installed": "1.13.2",
+      "resolved": "https://registry.npmjs.org/axios/-/axios-1.13.2.tgz"
+    },
+    "clsx": {
+      "requested": "clsx",
+      "installed": "2.1.1",
+      "resolved": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz"
+    },
+    "cookie": {
+      "requested": "cookie",
+      "installed": "1.1.1",
+      "resolved": "https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz"
+    },
+    "dotenv": {
+      "requested": "dotenv",
+      "installed": "16.6.1",
+      "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz"
+    },
+    "drizzle-orm": {
+      "requested": "drizzle-orm",
+      "installed": "0.44.7",
+      "resolved": "https://registry.npmjs.org/drizzle-orm/-/drizzle-orm-0.44.7.tgz"
+    },
+    "expo": {
+      "requested": "expo",
+      "installed": "57.0.24",
+      "resolved": "https://registry.npmjs.org/expo/-/expo-57.0.24.tgz"
+    },
+    "expo-asset": {
+      "requested": "expo-asset",
+      "installed": "57.0.18",
+      "resolved": "https://registry.npmjs.org/expo-asset/-/expo-asset-57.0.18.tgz"
+    },
+    "expo-audio": {
+      "requested": "expo-audio",
+      "installed": "57.0.5",
+      "resolved": "https://registry.npmjs.org/expo-audio/-/expo-audio-57.0.5.tgz"
+    },
+    "expo-build-properties": {
+      "requested": "expo-build-properties",
+      "installed": "57.0.21",
+      "resolved": "https://registry.npmjs.org/expo-build-properties/-/expo-build-properties-57.0.21.tgz"
+    },
+    "expo-camera": {
+      "requested": "expo-camera",
+      "installed": "57.0.6",
+      "resolved": "https://registry.npmjs.org/expo-camera/-/expo-camera-57.0.6.tgz"
+    },
+    "expo-constants": {
+      "requested": "expo-constants",
+      "installed": "57.0.19",
+      "resolved": "https://registry.npmjs.org/expo-constants/-/expo-constants-57.0.19.tgz"
+    },
+    "expo-file-system": {
+      "requested": "expo-file-system",
+      "installed": "57.0.7",
+      "resolved": "https://registry.npmjs.org/expo-file-system/-/expo-file-system-57.0.7.tgz"
+    },
+    "expo-font": {
+      "requested": "expo-font",
+      "installed": "57.0.4",
+      "resolved": "https://registry.npmjs.org/expo-font/-/expo-font-57.0.4.tgz"
+    },
+    "expo-haptics": {
+      "requested": "expo-haptics",
+      "installed": "57.0.3",
+      "resolved": "https://registry.npmjs.org/expo-haptics/-/expo-haptics-57.0.3.tgz"
+    },
+    "expo-image": {
+      "requested": "expo-image",
+      "installed": "57.0.5",
+      "resolved": "https://registry.npmjs.org/expo-image/-/expo-image-57.0.5.tgz"
+    },
+    "expo-keep-awake": {
+      "requested": "expo-keep-awake",
+      "installed": "57.0.2",
+      "resolved": "https://registry.npmjs.org/expo-keep-awake/-/expo-keep-awake-57.0.2.tgz"
+    },
+    "expo-linking": {
+      "requested": "expo-linking",
+      "installed": "57.0.10",
+      "resolved": "https://registry.npmjs.org/expo-linking/-/expo-linking-57.0.10.tgz"
+    },
+    "expo-notifications": {
+      "requested": "expo-notifications",
+      "installed": "57.0.20",
+      "resolved": "https://registry.npmjs.org/expo-notifications/-/expo-notifications-57.0.20.tgz"
+    },
+    "expo-print": {
+      "requested": "expo-print",
+      "installed": "57.0.2",
+      "resolved": "https://registry.npmjs.org/expo-print/-/expo-print-57.0.2.tgz"
+    },
+    "expo-router": {
+      "requested": "expo-router",
+      "installed": "57.0.22",
+      "resolved": "https://registry.npmjs.org/expo-router/-/expo-router-57.0.22.tgz"
+    },
+    "expo-secure-store": {
+      "requested": "expo-secure-store",
+      "installed": "57.0.4",
+      "resolved": "https://registry.npmjs.org/expo-secure-store/-/expo-secure-store-57.0.4.tgz"
+    },
+    "expo-sharing": {
+      "requested": "expo-sharing",
+      "installed": "57.0.26",
+      "resolved": "https://registry.npmjs.org/expo-sharing/-/expo-sharing-57.0.26.tgz"
+    },
+    "expo-splash-screen": {
+      "requested": "expo-splash-screen",
+      "installed": "57.0.9",
+      "resolved": "https://registry.npmjs.org/expo-splash-screen/-/expo-splash-screen-57.0.9.tgz"
+    },
+    "expo-status-bar": {
+      "requested": "expo-status-bar",
+      "installed": "57.0.1",
+      "resolved": "https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-57.0.1.tgz"
+    },
+    "expo-symbols": {
+      "requested": "expo-symbols",
+      "installed": "57.0.3",
+      "resolved": "https://registry.npmjs.org/expo-symbols/-/expo-symbols-57.0.3.tgz"
+    },
+    "expo-system-ui": {
+      "requested": "expo-system-ui",
+      "installed": "57.0.4",
+      "resolved": "https://registry.npmjs.org/expo-system-ui/-/expo-system-ui-57.0.4.tgz"
+    },
+    "expo-video": {
+      "requested": "expo-video",
+      "installed": "57.0.4",
+      "resolved": "https://registry.npmjs.org/expo-video/-/expo-video-57.0.4.tgz"
+    },
+    "expo-web-browser": {
+      "requested": "expo-web-browser",
+      "installed": "57.0.3",
+      "resolved": "https://registry.npmjs.org/expo-web-browser/-/expo-web-browser-57.0.3.tgz"
+    },
+    "express": {
+      "requested": "express",
+      "installed": "4.22.1",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.22.1.tgz"
+    },
+    "jose": {
+      "requested": "jose",
+      "installed": "6.1.0",
+      "resolved": "https://registry.npmjs.org/jose/-/jose-6.1.0.tgz"
+    },
+    "mysql2": {
+      "requested": "mysql2",
+      "installed": "3.16.0",
+      "resolved": "https://registry.npmjs.org/mysql2/-/mysql2-3.16.0.tgz"
+    },
+    "nativewind": {
+      "requested": "nativewind",
+      "installed": "4.2.1",
+      "resolved": "https://registry.npmjs.org/nativewind/-/nativewind-4.2.1.tgz"
+    },
+    "pdf-lib": {
+      "requested": "pdf-lib",
+      "installed": "1.17.1",
+      "resolved": "https://registry.npmjs.org/pdf-lib/-/pdf-lib-1.17.1.tgz"
+    },
+    "react": {
+      "requested": "react",
+      "installed": "19.2.3",
+      "resolved": "https://registry.npmjs.org/react/-/react-19.2.3.tgz"
+    },
+    "react-dom": {
+      "requested": "react-dom",
+      "installed": "19.2.3",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.3.tgz"
+    },
+    "react-native": {
+      "requested": "react-native",
+      "installed": "0.86.3",
+      "resolved": "https://registry.npmjs.org/react-native/-/react-native-0.86.3.tgz"
+    },
+    "react-native-ble-plx": {
+      "requested": "react-native-ble-plx",
+      "installed": "3.5.1",
+      "resolved": "https://registry.npmjs.org/react-native-ble-plx/-/react-native-ble-plx-3.5.1.tgz"
+    },
+    "react-native-gesture-handler": {
+      "requested": "react-native-gesture-handler",
+      "installed": "2.32.0",
+      "resolved": "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.32.0.tgz"
+    },
+    "react-native-reanimated": {
+      "requested": "react-native-reanimated",
+      "installed": "4.5.1",
+      "resolved": "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-4.5.1.tgz"
+    },
+    "react-native-safe-area-context": {
+      "requested": "react-native-safe-area-context",
+      "installed": "5.7.0",
+      "resolved": "https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-5.7.0.tgz"
+    },
+    "react-native-screens": {
+      "requested": "react-native-screens",
+      "installed": "4.26.2",
+      "resolved": "https://registry.npmjs.org/react-native-screens/-/react-native-screens-4.26.2.tgz"
+    },
+    "react-native-svg": {
+      "requested": "react-native-svg",
+      "installed": "15.15.4",
+      "resolved": "https://registry.npmjs.org/react-native-svg/-/react-native-svg-15.15.4.tgz"
+    },
+    "react-native-web": {
+      "requested": "react-native-web",
+      "installed": "0.21.2",
+      "resolved": "https://registry.npmjs.org/react-native-web/-/react-native-web-0.21.2.tgz"
+    },
+    "react-native-worklets": {
+      "requested": "react-native-worklets",
+      "installed": "0.10.1",
+      "resolved": "https://registry.npmjs.org/react-native-worklets/-/react-native-worklets-0.10.1.tgz"
+    },
+    "superjson": {
+      "requested": "superjson",
+      "installed": "1.13.3",
+      "resolved": "https://registry.npmjs.org/superjson/-/superjson-1.13.3.tgz"
+    },
+    "tailwind-merge": {
+      "requested": "tailwind-merge",
+      "installed": "2.6.0",
+      "resolved": "https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-2.6.0.tgz"
+    },
+    "xlsx": {
+      "requested": "xlsx",
+      "installed": "0.18.5",
+      "resolved": "https://registry.npmjs.org/xlsx/-/xlsx-0.18.5.tgz"
+    },
+    "zod": {
+      "requested": "zod",
+      "installed": "4.2.1",
+      "resolved": "https://registry.npmjs.org/zod/-/zod-4.2.1.tgz"
+    }
+  },
+  "devDependencies": {
+    "@expo/ngrok": {
+      "requested": "@expo/ngrok",
+      "installed": "4.1.3",
+      "resolved": "https://registry.npmjs.org/@expo/ngrok/-/ngrok-4.1.3.tgz"
+    },
+    "@types/cookie": {
+      "requested": "@types/cookie",
+      "installed": "0.6.0",
+      "resolved": "https://registry.npmjs.org/@types/cookie/-/cookie-0.6.0.tgz"
+    },
+    "@types/express": {
+      "requested": "@types/express",
+      "installed": "4.17.25",
+      "resolved": "https://registry.npmjs.org/@types/express/-/express-4.17.25.tgz"
+    },
+    "@types/node": {
+      "requested": "@types/node",
+      "installed": "22.19.3",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-22.19.3.tgz"
+    },
+    "@types/qrcode": {
+      "requested": "@types/qrcode",
+      "installed": "1.5.6",
+      "resolved": "https://registry.npmjs.org/@types/qrcode/-/qrcode-1.5.6.tgz"
+    },
+    "@types/react": {
+      "requested": "@types/react",
+      "installed": "19.2.18",
+      "resolved": "https://registry.npmjs.org/@types/react/-/react-19.2.18.tgz"
+    },
+    "concurrently": {
+      "requested": "concurrently",
+      "installed": "9.2.1",
+      "resolved": "https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz"
+    },
+    "cross-env": {
+      "requested": "cross-env",
+      "installed": "7.0.3",
+      "resolved": "https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz"
+    },
+    "drizzle-kit": {
+      "requested": "drizzle-kit",
+      "installed": "0.31.8",
+      "resolved": "https://registry.npmjs.org/drizzle-kit/-/drizzle-kit-0.31.8.tgz"
+    },
+    "esbuild": {
+      "requested": "esbuild",
+      "installed": "0.25.12",
+      "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz"
+    },
+    "eslint": {
+      "requested": "eslint",
+      "installed": "9.39.2",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-9.39.2.tgz"
+    },
+    "eslint-config-expo": {
+      "requested": "eslint-config-expo",
+      "installed": "57.0.2",
+      "resolved": "https://registry.npmjs.org/eslint-config-expo/-/eslint-config-expo-57.0.2.tgz"
+    },
+    "prettier": {
+      "requested": "prettier",
+      "installed": "3.7.4",
+      "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.7.4.tgz"
+    },
+    "qrcode": {
+      "requested": "qrcode",
+      "installed": "1.5.4",
+      "resolved": "https://registry.npmjs.org/qrcode/-/qrcode-1.5.4.tgz"
+    },
+    "tailwindcss": {
+      "requested": "tailwindcss",
+      "installed": "3.4.19",
+      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz"
+    },
+    "tsx": {
+      "requested": "tsx",
+      "installed": "4.21.0",
+      "resolved": "https://registry.npmjs.org/tsx/-/tsx-4.21.0.tgz"
+    },
+    "typescript": {
+      "requested": "typescript",
+      "installed": "6.0.3",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz"
+    },
+    "vitest": {
+      "requested": "vitest",
+      "installed": "2.1.9",
+      "resolved": "https://registry.npmjs.org/vitest/-/vitest-2.1.9.tgz"
+    }
+  }
+}

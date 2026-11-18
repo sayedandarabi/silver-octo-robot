@@ -1,0 +1,34 @@
+{
+  "business": {"id":"demo-business","name":"Fin MaX Demo","baseCurrency":"AFN"},
+  "sales": [
+    {"id":"sale-1","title":"فروش نقدی دکان","amount":128500,"note":"فروش روزانه","createdAt":"امروز، ۱۰:۲۵"},
+    {"id":"sale-2","title":"سفارش شرکت پامیر","amount":84500,"note":"تحویل عمده","createdAt":"دیروز، ۱۶:۴۰"}
+  ],
+  "expenses": [
+    {"id":"expense-1","title":"کرایه دفتر","amount":22000,"note":"ماه جاری","createdAt":"امروز، ۰۹:۱۰"},
+    {"id":"expense-2","title":"خرید بسته‌بندی","amount":8400,"note":"مصرف فروشگاه","createdAt":"دیروز، ۱۳:۲۰"}
+  ],
+  "accounts": [
+    {"id":"cash-1","name":"صندوق اصلی","type":"CASH","holder":"مدیریت","balance":184000},
+    {"id":"bank-1","name":"بانک اسلامی","type":"BANK","holder":"حساب تجارتی","balance":412000}
+  ],
+  "products": [
+    {"id":"prod-1","name":"چای سبز ممتاز","sku":"TEA-204","category":"مواد غذایی","unit":"کارتن","price":18500,"stock":42,"minStock":10},
+    {"id":"prod-2","name":"روغن آفتابگردان","sku":"OIL-118","category":"مواد غذایی","unit":"بوتل","price":420,"stock":86,"minStock":24},
+    {"id":"prod-3","name":"برنج باسمتی","sku":"RIC-009","category":"مواد غذایی","unit":"کیسه","price":3950,"stock":8,"minStock":12}
+  ],
+  "warehouses": [{"id":"wh-1","name":"انبار مرکزی","branch":"شعبه مرکزی","code":"WH-01"}],
+  "customers": [
+    {"id":"customer-1","name":"شرکت پامیر","phone":"0700 123 456","address":"کابل، شهرنو","openingBalance":{"amount":"0","currency":"AFN"},"creditLimit":{"amount":"250000","currency":"AFN"},"group":"company"},
+    {"id":"customer-2","name":"مارکیت بهار","phone":"0790 555 210","address":"کابل، کارته چهار","openingBalance":{"amount":"12500","currency":"AFN"},"creditLimit":{"amount":"80000","currency":"AFN"},"group":"wholesale"}
+  ],
+  "inventoryMovements": [
+    {"id":"stock-1","productId":"prod-1","warehouseId":"wh-1","type":"IN","quantity":"42","unitCost":{"amount":"13000","currency":"AFN"},"reference":"موجودی افتتاحیه","createdAt":"امروز"},
+    {"id":"stock-2","productId":"prod-2","warehouseId":"wh-1","type":"IN","quantity":"86","unitCost":{"amount":"300","currency":"AFN"},"reference":"موجودی افتتاحیه","createdAt":"امروز"},
+    {"id":"stock-3","productId":"prod-3","warehouseId":"wh-1","type":"IN","quantity":"8","unitCost":{"amount":"3200","currency":"AFN"},"reference":"موجودی افتتاحیه","createdAt":"امروز"}
+  ],
+  "journalEntries": [
+    {"id":"je-1","no":"JE-0001","date":"امروز","memo":"ثبت فروش نقدی","lines":[{"accountCode":"1010","debit":{"amount":"128500","currency":"AFN"},"credit":{"amount":"0","currency":"AFN"}},{"accountCode":"4000","debit":{"amount":"0","currency":"AFN"},"credit":{"amount":"128500","currency":"AFN"}}]},
+    {"id":"je-2","no":"JE-0002","date":"امروز","memo":"ثبت کرایه دفتر","lines":[{"accountCode":"5100","debit":{"amount":"22000","currency":"AFN"},"credit":{"amount":"0","currency":"AFN"}},{"accountCode":"1010","debit":{"amount":"0","currency":"AFN"},"credit":{"amount":"22000","currency":"AFN"}}]}
+  ]
+}
